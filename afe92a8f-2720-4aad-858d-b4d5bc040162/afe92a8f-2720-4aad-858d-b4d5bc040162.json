@@ -329,7 +329,7 @@
             "Title": "Start",
             "XPosition": "5000",
             "YPosition": "5000",
-            "IsExpanded": "False",
+            "IsExpanded": "True",
             "Width": "150",
             "TemplateId": "",
             "FlowchartId": "4a66a21e-b0ae-4c15-b75f-80fcd919e199",
@@ -346,14 +346,21 @@
                 "Key": "Header",
                 "Title": "Start",
                 "SortOrder": "0",
-                "ValueId": "",
+                "ValueId": "2974c698-516c-4397-ba3f-b4d5744a0163",
                 "LType": "LSignal",
                 "IsExpanded": "False",
                 "IsBlockPropertyChecked": "",
                 "CustomSortOrder": "0",
                 "Id": "0550e2d3-b868-4ba3-8854-b4d533000163",
                 "ChildProperties": [],
-                "Connections": []
+                "Connections": [
+                  {
+                    "OutputFlowPropertyId": "0550e2d3-b868-4ba3-8854-b4d533000163",
+                    "InputFlowPropertyId": "d9d65f37-7dc5-41e3-b56c-b4d53ec20163",
+                    "Id": "9e314ed0-26ac-4ba2-8d2d-b4d5744a0163",
+                    "WireGuides": []
+                  }
+                ]
               }
             ]
           },
@@ -361,7 +368,7 @@
             "Title": "Pass",
             "XPosition": "5200",
             "YPosition": "5000",
-            "IsExpanded": "False",
+            "IsExpanded": "True",
             "Width": "150",
             "TemplateId": "",
             "FlowchartId": "4a66a21e-b0ae-4c15-b75f-80fcd919e199",
@@ -378,10 +385,10 @@
                 "Key": "Header",
                 "Title": "Pass",
                 "SortOrder": "0",
-                "ValueId": "",
+                "ValueId": "1c21b44a-94ca-4f6e-a7b0-b4d5744a0163",
                 "LType": "LSignal",
                 "IsExpanded": "False",
-                "IsBlockPropertyChecked": "",
+                "IsBlockPropertyChecked": "True",
                 "CustomSortOrder": "0",
                 "Id": "d9d65f37-7dc5-41e3-b56c-b4d53ec20163",
                 "ChildProperties": [],
@@ -389,7 +396,7 @@
                   {
                     "OutputFlowPropertyId": "d9d65f37-7dc5-41e3-b56c-b4d53ec20163",
                     "InputFlowPropertyId": "8ae3c0ba-c9e5-4e99-9277-143dba67de26",
-                    "Id": "e706dc90-1436-4f0f-9bb8-b4d53ec30163",
+                    "Id": "2c86040c-8d33-475a-9473-b4d5744a0163",
                     "WireGuides": []
                   }
                 ]
